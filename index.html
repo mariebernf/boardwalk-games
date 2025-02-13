@@ -25,10 +25,47 @@
     <!-- Custom CSS-->
     <link rel="stylesheet" href="assets\images\css\style.css" />
   </head>
-  <body>
-    <h1>Boardwalk Games</h1>
 
-    <p>Welcome to Boardwalk games</p>
+  <!-- Classes on body set to work with mt-auto on footer to ensure it always stays at the bottom of the page. -->
+  <body class="d-flex flex-column min-vh-100">
+    <!-- Navigation -->
+     <div>Navigation</div>
+
+     <!-- Header with carousel -->
+      <header class="container">
+        <div class="row">
+            <div class="col-12 col-xl-6">Boardwalk Games intro text section</div>
+            <div class="col-12 col-xl-6">Carousel</div>
+        </div>
+      </header>
+
+      <!-- Main element to hold all the key sections of the home page -->
+      <main>
+        <!-- Services section -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12">Services section heading</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+                <div class="col-12 col-md-6 col-xl-3">Services card</div>
+            </div>
+        </section>
+      </main>
+
+      <!-- Footer / Contact section -->
+       <!-- mt-auto added to push footer to the bottom of the page -->
+       <footer class="mt-auto">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">Contact section heading</div>
+                <!-- Contact information -->
+                <div class="col-12 col-md-6 col-xl-4">Contact info & social links</div>
+                <!-- Opening times -->
+                <div class="col-12 col-md-6 col-xl-4">Opening times</div>
+            </div>
+        </div>
+       </footer>
 
     <!-- Bootstrap JS -->
     <script
