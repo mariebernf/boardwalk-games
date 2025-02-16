@@ -8,7 +8,7 @@
     --primary-color: #3a2620; /* dark brown */
     --secondary-color: #aa9581; /* light brown */
     --highlight-color: #416a8e; /* blue */
-    --light-highlight-color: #7a9fc2; /* light blue */
+    --highlight-color-light: #7a9fc2; /* light blue */
 }
 
 /* Global styles */
@@ -22,7 +22,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -50,9 +58,21 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+/* Services */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+
 /* grid visualisation CSS for testing */
 
-/* .container, 
+/* .container,
 .row {
     border: 2px solid black;
 }
